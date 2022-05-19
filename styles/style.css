@@ -176,6 +176,8 @@
   margin: 0 auto 100px;
   padding: 0;
   list-style: none;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell {
@@ -276,6 +278,9 @@
 
 .kaufman__triangle {
   position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  top: 0;
   width: 877px;
   height: 877px;
+  right: -210px;
 }
